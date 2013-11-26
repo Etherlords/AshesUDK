@@ -16,12 +16,22 @@ event ReceivedText(string Text)
 event ReceivedBinary(int Count, byte B[255])
 {
 	local int i;
+	local ByteArray barr;
+
+	barr = new class'ByteArray';
+
 	`log("receive bytes");
 	
 	for(i = 0; i < Count; i++)
 	{
-		`log(B[i]);
+		barr.writeByte(b[i]);
 	}
+
+	barr.position = 0;
+
+	`log(barr.readInt());
+	`log(barr.readInt());
+	`log(barr.readUTF());
 
 	`log('----------');
 	`log(Count);

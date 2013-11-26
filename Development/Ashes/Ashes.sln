@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E17AB4A1-DF35-4579-9E91-0CFFBFB6391A}") = "Ashes", "Ashes\Ashes.ucproj", "{48962F60-64D8-4C3B-AF3F-8EF3E0BB8E52}"
+EndProject
+Project("{E17AB4A1-DF35-4579-9E91-0CFFBFB6391A}") = "MyUdkProject", "..\Src\MyUdkProject.ucproj", "{47105883-6C1D-4A70-BA51-CD0A7FF4E0FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48962F60-64D8-4C3B-AF3F-8EF3E0BB8E52}.Debug|Win32.ActiveCfg = Debug|Win32
+		{48962F60-64D8-4C3B-AF3F-8EF3E0BB8E52}.Debug|Win32.Build.0 = Debug|Win32
+		{48962F60-64D8-4C3B-AF3F-8EF3E0BB8E52}.Release|Win32.ActiveCfg = Release|Win32
+		{48962F60-64D8-4C3B-AF3F-8EF3E0BB8E52}.Release|Win32.Build.0 = Release|Win32
+		{47105883-6C1D-4A70-BA51-CD0A7FF4E0FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47105883-6C1D-4A70-BA51-CD0A7FF4E0FF}.Debug|Win32.Build.0 = Debug|Win32
+		{47105883-6C1D-4A70-BA51-CD0A7FF4E0FF}.Release|Win32.ActiveCfg = Release|Win32
+		{47105883-6C1D-4A70-BA51-CD0A7FF4E0FF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

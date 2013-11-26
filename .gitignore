@@ -222,6 +222,8 @@ pip-log.txt
 PCTOC*.*
 Mobile-UDK*.ini
 
+/UDKGame/Content/StarterPlatformGameContent/
+
 LocalShaderCache*.*
 
 /Binaries/

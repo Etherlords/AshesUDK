@@ -220,6 +220,9 @@ pip-log.txt
 
 *.exe
 PCTOC*.*
+Mobile-UDK*.ini
+
+LocalShaderCache*.*
 
 /Binaries/
 
@@ -245,9 +248,11 @@ PCTOC*.*
 /Development/Src/UTGame/
 /Development/Src/UTGameContent/
 /Development/Src/WinDrv/
+/Development/Src/StarterPlatformGame/
 
 /Engine/
 /UDKGame/Build
+/UDKGame/MovieCaptures
 /UDKGame/Autosaves
 /UDKGame/Cloud
 /UDKGame/CookedPC
@@ -276,3 +281,8 @@ PCTOC*.*
 /UDKGame/Content/Maps/Mobile
 /UDKGame/Content/Maps/Showcases
 /UDKGame/Content/Maps/UT3
+/UDKGame/Content/3DBuzz packages/
+/UDKGame/Content/3DBuzz levels/
+/UDKGame/Content/Eat3D - Kismet 2 - Maps/
+/UDKGame/Content/Eat3D - Kismet 2 - Packages/
+
